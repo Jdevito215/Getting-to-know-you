@@ -1,0 +1,79 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c26363;
+    font-family: Optima, Monaco;
+}
+
+header {
+    text-align: center;
+    background-color: #7d2992;
+    color: #fff;
+    padding: 22px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.profile-image {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.profile-image img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 3px groove #7d2992;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #f9f7fa;
+    border: 2px solid #bf89cc;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #bf89cc;
+    color: #fff;
+}
+.about-me, .course, .hobby, .fun-fact, .innovation {
+    background-color: #e0a0a0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .course h2, .hobby h2, .fun-fact h2, .innovation h2 {
+    font-size: 24px;
+    color: #7d2992;
+    margin-bottom: 10px;
+}
+
+.about p, .hobby p, .fun-fact p, .innovation p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.course ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.innovation a {
+    color: black;
+}
+
+.innovation a:hover {
+    text-decoration: underline;
+}
